@@ -1,0 +1,22 @@
+{
+  "name": "wppconnect",
+  "version": "1.0.0",
+  "description": "",
+  "main": "robo.js",
+  "scripts": {
+    "start": "node ./src/robo.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@google-cloud/local-auth": "^3.0.1",
+    "@wppconnect-team/wppconnect": "^1.21.0",
+    "chromium": "^3.0.3",
+    "dotenv": "^16.4.5",
+    "firebase-admin": "^12.1.1",
+    "googleapis": "^140.0.1",
+    "puppeteer": "^23.4.1",
+    "puppeteer-core": "^23.4.1"
+  }
+}
